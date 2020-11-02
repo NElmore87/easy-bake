@@ -4,16 +4,55 @@ body{
 
 header {
     height: 150px;
-    max-width: 99%;
+    width: 99%;
     border-style: double;
     border-width: medium;
     border-color: #374046;
     background-color: #235971;
     text-align: center;
     color: white;
-    font-size: 4.5em;
+    font-size: 12.0vw;
     font-family: 'Henny Penny', cursive;
     }
+
 header p {
     margin-top: 2%;
    }
+
+nav {
+    display: flex;
+    font-family: 'Henny Penny', cursive;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}   
+
+.rounded {
+    border-radius: 50%;
+    min-width: 10em;
+    max-width: 10em;
+    max-height: 10em;
+    min-height: 10em;
+    border-style: double;
+    border-color: #374046;
+    margin: 5px 40%;
+    justify-content: center;
+}
+
+.featured_item {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.more_item img {
+    min-width: 10em;
+    max-width: 50em;
+   flex-shrink: 2;
+}
+
+
